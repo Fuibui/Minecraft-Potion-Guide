@@ -1,0 +1,90 @@
+hmtl{
+    scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+background-color: #121212;
+margin: 0;
+padding: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+.Logo{
+    height: 40px;
+    width: auto;
+}
+
+
+
+.Benefits-text{
+    text-align: center;
+    color: white;
+}
+.nav-list{
+    background-color: #4e12da;
+    box-shadow: 15px 15px 10px var(#bb86fc);
+    margin:0;
+    padding:1rem 0;
+    border-radius: 0px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.nav-item{
+    list-style:none;
+    margin-right:2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition:all 200ms ease-in;
+}
+
+.nav-item a:hover{
+    color: white
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left:1rem;
+}
+
+.TagText a {
+    margin-left: 0;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in;
+}
+
+.TagText a:hover{
+    color: black
+}
+
+.TagText{
+    background-color: #4e12da;
+    box-shadow: 15px 15px 10px var(#bb86fc);
+    margin:0;
+    padding:1rem 0;
+    border-radius: 20px;
+    max-width: 1024px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.TagText h1 {
+    font-size: 2.7rem;
+    text-align: left;
+    margin-top:0;
+    margin-left: 0;
+}
