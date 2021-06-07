@@ -1,96 +1,91 @@
-<!doctype html>
+hmtl{
+    scroll-behavior: smooth;
+}
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+body{
+font-family: 'Montserrat', sans-serif;
+background-color: #121212;
+margin: 0;
+padding: 0;
+}
 
-  <title>McPG - The Minecraft potion guide</title>
-  <meta name="description" content="The ultimate guide of minecraft potions">
-  <meta name="author" content="Fuibui">
-  <meta name="image" content="https://media.discordapp.net/attachments/742444958635655190/846889988066639912/unknown.png">
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
 
-  <link rel="icon" href="https://icon-library.com/images/potion-icon/potion-icon-20.jpg">
-  <link rel="stylesheet" href="homepage.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+.Logo{
+    height: 40px;
+    width: auto;
+}
 
-<body>
 
-    <navbar>
-        <ul class="nav-list">
-            <li class="nav-item">
-                <div class="Logo">
-                    <a href="#"><img src="https://media.discordapp.net/attachments/742444958635655190/847147133785210950/334_Sem_Titulo_20210526131942.png?width=591&height=332" alt="Logo"></a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#faq">Faq</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">All potions</a>
-            </li>
-            <li class="nav-item">
-                <a href="tags.html">Tags</a>
-            <li class="nav-item">
-                <a href="#">Support</a>
-            </li>
-        </ul>
-    </navbar>
+
+.Benefits-text{
+    text-align: center;
+    color: white;
+}
+.nav-list{
+    background-color: #4e12da;
+    box-shadow: 15px 15px 10px var(#bb86fc);
+    margin:0;
+    padding:1rem 0;
+    border-radius: 0px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
     
-    <div class="UpsideWave">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4e12da" fill-opacity="1" d="M0,96L48,80C96,64,192,32,288,42.7C384,53,480,107,576,106.7C672,107,768,53,864,53.3C960,53,1056,107,1152,112C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#3e0eae;"></path></svg>
-    </div>
+}
 
-    <div class ="MainText">
-        <h1>Welcome to the McPG</h1>
-        <p>The best Minecraft potions recipe site</p>
-            <div class = "UseButton">
-                <a href="a-z.html"> START USING NOW!</a>
-            </div>
-    </div>
+.nav-item{
+    list-style:none;
+    margin-right:2rem;
+}
 
-    <div class="Wave">
-        <h1>⠀</h1>
-        <p>⠀</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4e12da" fill-opacity="1" d="M0,96L48,80C96,64,192,32,288,42.7C384,53,480,107,576,106.7C672,107,768,53,864,53.3C960,53,1056,107,1152,112C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#3e0eae;"></path></svg>
-    </div>
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition:all 200ms ease-in;
+}
 
-    <span class="FAQ"> 
-        <h2>Frequently Asked Questions</h2>
-    </span>
-        <div id="faq"class="BasicInfo">
-            <div class="WhyUse">
-                <h1>Why Use McPG?</h1>
-                <p>The McPG are uptaded constantly with recipes and alternatives.<br> And we have the BEST way to organize all recipes and alternatives to facilitate your life.</p>
-            </div>
+.nav-item a:hover{
+    color: white
+}
 
-            <div class ="WhyUse">
-                <h1>How McPG is organized?</h1>
-                <p>McPG is organized with <a href="tags.html">Tags</a> where each potion is in its proper group. <br>and is organized with the name of the <a href="#"> A-Z potions</a></p>
-            </div>
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left:1rem;
+}
 
-            <div class ="WhyUse">
-                <h1>McPG is really constantly uptaded?</h1>
-                <p>Yes, we team uptade all recipes on every new Minecraft uptade.</p>
-            </div>            
+.TagText a {
+    margin-left: 0;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in;
+}
 
-        </div>
+.TagText a:hover{
+    color: black
+}
 
-        <div class = "UseButton">
-            <a href="a-z.html"> START USING NOW!</a>
-        </div>
-    
-        <div class="footer">
-            <h3>McPG</h3>
-            <p>McPG is a site made for pure fun/study, if you can give a star to the <a href="https://github.com/Fuibui/Minecraft-Potion-Guide">Github</a> project I would be very happy :)</p>
-            <div class="footer-bottom">
-                <p>Copyright &copy;2021 Fuibui</p>
-    
-            </div>
-        </div>
-  <script src="scripts.js"></script>
-</body>
-</html>
+.TagText{
+    background-color: #4e12da;
+    box-shadow: 15px 15px 10px var(#bb86fc);
+    padding:1rem 0;
+    border-radius: 20px;
+    max-width: 1024px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
 
+.TagText h1 {
+    font-size: 2.7rem;
+    text-align: left;
+    margin-top:0;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
