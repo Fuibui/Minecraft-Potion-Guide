@@ -9,6 +9,18 @@ margin: 0;
 padding: 0;
 }
 
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3904b4;
+    border-radius: 23px;
+}
+
+
+
 img{
     max-width: 100%;
     max-height: 100%;
@@ -16,8 +28,9 @@ img{
 }
 
 .Logo{
-    height: 40px;
+    height: 100px;
     width: auto;
+    align-items: center;
 }
 
 .nav-list{
@@ -49,7 +62,7 @@ img{
 
 .nav-item:first-child{
     margin-right: auto;
-    margin-left:1rem;
+    margin-left: 4rem;
 }
 
 .UseButton a {
@@ -158,4 +171,48 @@ img{
     text-decoration: inherit;
     color: #200152;
     transition:all 200ms ease-in;
+}
+
+.footer{
+    background-color: #151515;
+    height: auto;
+    width: 1585px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #b78bff;
 }
