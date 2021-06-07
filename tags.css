@@ -73,13 +73,13 @@ img{
 .TagText{
     background-color: #4e12da;
     box-shadow: 15px 15px 10px var(#bb86fc);
-    margin:0;
     padding:1rem 0;
     border-radius: 20px;
     max-width: 1024px;
     width: 20%;
     margin: auto;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .TagText h1 {
@@ -87,4 +87,5 @@ img{
     text-align: left;
     margin-top:0;
     margin-left: 0;
+    margin-bottom: 25px;
 }
